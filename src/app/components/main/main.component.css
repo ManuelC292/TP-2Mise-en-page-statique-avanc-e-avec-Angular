@@ -1,0 +1,18 @@
+div.main{
+  height: calc(100% - 10px);
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+#article{
+  flex:3;
+}
+#aside-container{
+  flex:1;
+}
+
+@media screen and (max-width: 900px) {
+  div.main{
+    flex-direction: column;
+  }
+}
